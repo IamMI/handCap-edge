@@ -67,7 +67,7 @@ Make sure the device `/dev/video0` is accessible and supports MJPEG format.
 When a person is detected (every 60 frames), the system sends an alert via the following HTTP interface:
 
 ```http 复制 编辑
-POST http://47.96.99.105:3000/alert
+POST http://Your server IP:Port/alert
 Content-Type: application/json
 
 {
